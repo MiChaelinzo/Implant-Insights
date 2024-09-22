@@ -8,6 +8,9 @@ schema = StructType([
     StructField("content", BinaryType(), True),
     StructField("metadata", MapType(StringType(), StringType()), True),
     StructField("ingestion_timestamp", TimestampType(), True)  # Capture ingestion time
+    StructField("payload", StringType(), True),   # Raw data from implant
+    StructField("ingestion_timestamp", TimestampType(), True)
+
 ])
 
 # Auto Loader with error handling 
@@ -23,6 +26,9 @@ df = (df
       .withColumn("patient_id", col("metadata")["patient_id"]) 
       .withColumn("implant_id", col("metadata")["implant_id"]) 
       .withColumn("data_category", col("metadata")["data_category"]) ) 
+      .withColumn("patient_id", regexp_extract(col("payload"), r"ID:(\w+)", 1))
+      .withColumn("heart_rate", regexp_extract(col("payload"), r"HR:(\d+)", 1))
+      .withColumn("blood_pressure", regexp_extract(col("payload"), r"BP:(\d+/\d+)", 1))
 
 # Write to Delta Lake with more granular partitioning 
 (df.writeStream
