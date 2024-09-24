@@ -1,4 +1,4 @@
-# Implant Insights: Accelerating Healthcare with Databricks
+![Flow-chart-of-the-proposed-model](https://github.com/user-attachments/assets/3802cfe6-7c9a-4be1-9bb4-c90f17307609)# Implant Insights: Accelerating Healthcare with Databricks
 
 **Project Overview**
 
@@ -29,6 +29,11 @@ This project demonstrates the power of combining Databricks and xSIID implant ch
     * `model_deployment.py`
 6. Schedule `jobs/scheduled_inference.py` for automated inference.
 
+FlowChart Images: 
+![Flow-chart-of-the-proposed-model](https://github.com/user-attachments/assets/34453573-a878-4b95-9d8e-4311926211fc)
+![IoT-system-components](https://github.com/user-attachments/assets/832e31fd-6bc4-4a65-972c-3b0bb56ecf7e)
+
+
 **Contributing**
 
 We welcome contributions to improve and expand this project. Please feel free to open issues or submit pull requests.
@@ -40,3 +45,6 @@ This project is for demonstration purposes only and should not be used in a clin
 **License**
 
 This project is licensed under the MIT License.
+
+
+
