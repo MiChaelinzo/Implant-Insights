@@ -30,6 +30,7 @@ This project demonstrates the power of combining Databricks and xSIID implant ch
 6. Schedule `jobs/scheduled_inference.py` for automated inference.
 
 FlowChart Images: 
+![crewai_diag](https://github.com/user-attachments/assets/b9b2fff6-2cd9-47c9-85b1-cc8f302aa0b3)
 
 ![Flow-chart-of-the-proposed-model](https://github.com/user-attachments/assets/34453573-a878-4b95-9d8e-4311926211fc)
 
