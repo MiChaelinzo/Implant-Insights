@@ -37,6 +37,8 @@ FlowChart Images:
 
 ![IoT-system-components](https://github.com/user-attachments/assets/832e31fd-6bc4-4a65-972c-3b0bb56ecf7e)
 
+![Working-process-of-the-proposed-HM-DST-mechanism](https://github.com/user-attachments/assets/811b1201-9c2d-434a-b7c0-b5a3932f7055)
+
 ![crewai_diag](https://github.com/user-attachments/assets/b9b2fff6-2cd9-47c9-85b1-cc8f302aa0b3)
 
 **Contributing**
