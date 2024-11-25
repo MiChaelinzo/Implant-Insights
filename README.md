@@ -1,6 +1,8 @@
 # Implant Insights: Accelerating Healthcare with Databricks
 **Project Overview**
 
+implant_insights_flowchart.mmd
+
 This project demonstrates the power of combining Databricks and xSIID implant chips to revolutionize medical data processing and analysis. By harnessing the capabilities of Databricks' powerful tools and the unique data streams from xSIID implants, we aim to:
 
 * Extract valuable insights from diverse medical data types (images, documents, etc.).
@@ -29,12 +31,12 @@ This project demonstrates the power of combining Databricks and xSIID implant ch
 6. Schedule `jobs/scheduled_inference.py` for automated inference.
 
 FlowChart Images: 
-![crewai_diag](https://github.com/user-attachments/assets/b9b2fff6-2cd9-47c9-85b1-cc8f302aa0b3)
 
 ![Flow-chart-of-the-proposed-model](https://github.com/user-attachments/assets/34453573-a878-4b95-9d8e-4311926211fc)
 
 ![IoT-system-components](https://github.com/user-attachments/assets/832e31fd-6bc4-4a65-972c-3b0bb56ecf7e)
 
+![crewai_diag](https://github.com/user-attachments/assets/b9b2fff6-2cd9-47c9-85b1-cc8f302aa0b3)
 
 **Contributing**
 
