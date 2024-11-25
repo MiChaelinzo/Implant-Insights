@@ -1,7 +1,8 @@
 # Implant Insights: Accelerating Healthcare with Databricks
 **Project Overview**
 
-implant_insights_flowchart.mmd
+[implant_insights_flowchart.mmd
+](https://github.com/MiChaelinzo/Implant-Insights/blob/3229070bed19688dc3a40d4707f3d8d742f00331/implant_insights_flowchart.mmd)
 
 This project demonstrates the power of combining Databricks and xSIID implant chips to revolutionize medical data processing and analysis. By harnessing the capabilities of Databricks' powerful tools and the unique data streams from xSIID implants, we aim to:
 
