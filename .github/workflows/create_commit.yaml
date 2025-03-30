@@ -1,0 +1,25 @@
+name: Schedule Empty Commit
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # This cron schedule runs the workflow every day at midnight
+
+jobs:
+  empty-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+          
+    - name: Touch files to update timestamps
+      run: |
+        touch index.js
+
+    - name: Create empty commit
+      run: |
+        git config --global user.email "michaelinso12@gmail.com"
+        git config --global user.name "MiChaelinzo"
+        git add index.js
+        git commit --allow-empty -m "Scheduled empty commit to keep app awake"
